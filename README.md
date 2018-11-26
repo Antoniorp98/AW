@@ -1,6 +1,6 @@
 # Ejercicios HTML y CSS
 ## Estructura mínima de una web.
-tag -a '<!DOCTYPE html>
+git tag -a '<!DOCTYPE html>
 <html>
 <head>
 	<title></title>
