@@ -33,3 +33,5 @@ Mediante la etiqueta <style> dentro de la cabecera del documento. Dentro de <sty
 
 Es usado para definir estilos especificos en una determinada página HTML. Su desventaja es a la hora de modificar los estilos, ya que debemos cambiar los estilos de todas las páginas donde lo hayamos incluido de esta manera.
 
+## Crea una lista sin ordenar con 5 ingredientes de una receta de cocina.
+
