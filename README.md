@@ -13,7 +13,7 @@
 ```
 
 ## Explica las 3 formas de usar CSS en HTML.
-```html
+
 ### Definir CSS en un archivo externo
 
 Los estilos se incluyen en un archivo con extensión .css que las páginas HTML enlazan mediante la etiqueta <link>. Los atributos que deben incluir son:
@@ -32,4 +32,4 @@ Se utiliza la etiqueta <style> como atributo de la etiqueta que queremos persona
 Mediante la etiqueta <style> dentro de la cabecera del documento. Dentro de <style> ponemos los estilos que queramos incluir en el documento HTML. Es importante incluir el atributo type=”text/css”.
 
 Es usado para definir estilos especificos en una determinada página HTML. Su desventaja es a la hora de modificar los estilos, ya que debemos cambiar los estilos de todas las páginas donde lo hayamos incluido de esta manera.
-```
+
