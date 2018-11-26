@@ -27,7 +27,7 @@ Los estilos se incluyen en un archivo con extensión .css que las páginas HTML 
 
 Se utiliza la etiqueta <style> como atributo de la etiqueta que queremos personalizar.
 	
-### incluir CSS en el propio documento HTML
+### Incluir CSS en el propio documento HTML
 
 Mediante la etiqueta <style> dentro de la cabecera del documento. Dentro de <style> ponemos los estilos que queramos incluir en el documento HTML. Es importante incluir el atributo type=”text/css”.
 
