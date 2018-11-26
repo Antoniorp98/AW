@@ -1,6 +1,6 @@
 # Ejercicios HTML y CSS
 ## Estructura mínima de una web.
-´´´html
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,6 +10,6 @@
 
 </body>
 </html>
-´´´
+```
 
 ## Explica las 3 formas de usar CSS en HTML.
