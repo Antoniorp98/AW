@@ -34,4 +34,24 @@ Mediante la etiqueta <style> dentro de la cabecera del documento. Dentro de <sty
 Es usado para definir estilos especificos en una determinada página HTML. Su desventaja es a la hora de modificar los estilos, ya que debemos cambiar los estilos de todas las páginas donde lo hayamos incluido de esta manera.
 
 ## Crea una lista sin ordenar con 5 ingredientes de una receta de cocina.
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+    list-style-type: square;
+}
+</style>
+</head>
+<body>
+
+<p>Ingredientes</p>
+<ul>
+  <li>2 huevos</li>
+  <li>500g de arina</li>
+  <li>1 cucharada de sal</li>
+</ul>
+
+</body>
+</html>
 
