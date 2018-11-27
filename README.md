@@ -59,3 +59,28 @@ ul {
 
 ## Como se puede incluir javascript en HTML.
 
+### Introducir JavaScript en los elementos de HTML
+Esta es la forma menos utilizada, consiste precisamente en introducir los elementos de JavaSript en una etiqueta de nuestro código html, un ejemplo sería "<span onclick="alert('Hola Mundo!')">Haz click aquí</span>", el problema que tiene este método es que ensucia mucho el código HTML y complica su mantenimiento.
+
+### Introducir JavaScript en el documento
+Seguimos introduciendo el código dentro del mismo documento solo que esta vez lo hacemos entre las etiquetas <script> que se pueden introducir en cualquier parte del código html, aunque es recomendable que se haga dentro de la cabecera del documento XHTML, es decir dentro de la etiqueta <head>. 
+Ejemplo:
+	
+<html>
+<head>
+    <title>Introducción de código js en las etiquetas script</title>
+    <script type="text/javascript">
+        alert('Hola Mundo!');
+    </script>
+</head>
+<body>
+Bienvenido a JavaScript
+</body>
+</html>
+
+Para que el documento quede validado la etiqueta script debe de tener el atributo type=”text/javascript”.
+
+### Introducir JavaScript en un archivo externo
+La mejor opción cuando tenemos un código que afecta a diferentes páginas del sitio o es un código muy elaborado.
+
+Para ello utilizamos de nuevo la etiqueta script que podemos repetir para insertar diferentes archivos JS en un mismo sitio por medio del atributo src que apunta la url del archivo JS que se quiere enlazar. Estos archivos cuya extensión es .js se pueden crear con cualquier editor de texto que queramos.
