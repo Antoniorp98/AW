@@ -47,11 +47,11 @@ ul {
 
 <p>Ingredientes</p>
 <ul>
-  <li>2 huevos</li>
-  <li>500g de arina</li>
-  <li>1 cucharada de sal</li>
-  <li>500ml de aceite<li>
-  <li>Veneno mortal<li>
+	<li>1 cucharada de sal</li>
+	<li>500g de harina</li>
+	<li>2 huevos</li>
+	<li>500ml de acite</li>
+	<li>Veneno mortal</li>
 </ul>
 
 </body>
