@@ -56,3 +56,6 @@ ul {
 </body>
 </html>
 ```
+
+## Como se puede incluir javascript en HTML.
+
