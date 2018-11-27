@@ -84,3 +84,21 @@ Para que el documento quede validado la etiqueta script debe de tener el atribut
 La mejor opción cuando tenemos un código que afecta a diferentes páginas del sitio o es un código muy elaborado.
 
 Para ello utilizamos de nuevo la etiqueta script que podemos repetir para insertar diferentes archivos JS en un mismo sitio por medio del atributo src que apunta la url del archivo JS que se quiere enlazar. Estos archivos cuya extensión es .js se pueden crear con cualquier editor de texto que queramos.
+
+Archivo script.js
+
+```alert('Hola Mundo!');```
+
+Archivo html que enlaza a script.js
+```html
+<html>
+<head>
+    <title>Introducción de código js en las etiquetas script</title>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+Bienvenido a JavaScript
+</body>
+</html>
+```
+Esta forma simplifica el código de la pagina ya que no tiene elementos extraños, se puede reutilizar en todas las páginas del sitio, es fácil de mantener y modificar para que afecte a todas las webs del sitio, por lo que es la más recomendable de utilizar.
