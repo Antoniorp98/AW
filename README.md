@@ -106,3 +106,15 @@ Esta forma simplifica el código de la pagina ya que no tiene elementos extraño
 ## ¿Que diferencia hay entre una clase y una ID?
 
 Dentro de los selectores en CSS, cada uno tiene un determinado peso siendo el Selector de Id el que tiene más peso, seguido del selector de Clase y finalmente el selector de tipo. Dd se usa par aidentificar un elemento unico en el documento HTML, eso significa que si hay un elemento que tiene asignado el atributo ID="principal" no podrá haber otro ID con igual valor (es decir, con el mismo nombre).Para su sintaxis, solamente se utiliza el carácter (#) delante de la id a la que vayamos a modificar sus parámetros, mientras que las clases (class) se usan para aplicar estilos iguales a varios elementos HTML, o sea, una clase es una serie de estilos definidos que se pueden usar muchas veces en cualquier etiqueta HTML. El selector de clases consta de un punto (.) seguido por el nombre de la clase que hayamos creado (el nombre lo elegimos nosotros).
+
+
+## Código para hacer un enlace a otra página y que esta se abra en una nueva ventana.
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+<a href="https://animeflv.net/" target="_blank">Anime</a>
+</body>
+</html>
+```
