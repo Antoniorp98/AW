@@ -118,3 +118,12 @@ Dentro de los selectores en CSS, cada uno tiene un determinado peso siendo el Se
 </body>
 </html>
 ```
+
+## ¿Qué son las pseudoclases? Pon ejemplos.
+
+Las pseudoclases, junto con los pseudoelementos, permiten aplicar un estilo a un elemento no sólo en relación con el contenido del árbol de documento, sino también en relación a factores externos como el historial del navegador, el estado de su contenido, o la posición del ratón.
+Ejemplos:
+- :left
+- :right
+- :not()
+- :active
