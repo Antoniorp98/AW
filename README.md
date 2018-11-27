@@ -38,7 +38,7 @@ Es usado para definir estilos especificos en una determinada página HTML. Su de
 <html>
 <head>
 <style>
-ul {
+ul{
     list-style-type: square;
 }
 </style>
