@@ -102,3 +102,6 @@ Bienvenido a JavaScript
 </html>
 ```
 Esta forma simplifica el código de la pagina ya que no tiene elementos extraños, se puede reutilizar en todas las páginas del sitio, es fácil de mantener y modificar para que afecte a todas las webs del sitio, por lo que es la más recomendable de utilizar.
+
+## ¿Que diferencia hay entre una clase y una ID?
+
