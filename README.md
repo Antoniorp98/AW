@@ -131,3 +131,15 @@ Ejemplos:
 ## Explica el modelo de caja de CSS (margin, border y padding)
 
 La caja de CSS tiene como principales atributos el margin, border y padding, el margin es la distancia del borde de un elemento hacia otro, el border define el grosor del borde y el padding es la distancia desde el borde hasta el contenido.
+
+## Explica que son los selectores de CSS y pon ejemplos
+
+## Di a quien afectan:
+```html
+p a { color: red;
+p > a { color: red; }
+h1 + h2 { color: red }
+a[class] { color: blue; }
+a[class="externo"] { color: blue; }
+a[href="http://www.ejemplo.com"] { color: blue; }
+```
