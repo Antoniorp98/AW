@@ -149,5 +149,5 @@ p > a { color: red; }	Afectaría a todos los elementos "a" que sean hijos inmedi
 h1 + h2 { color: red }	Afectaría a los elementos "h2" que sean seguidores inmediatos de "h1".
 a[class] { color: blue; }	Afectaría a todos los elementos "a" con el atributo "class".
 a[class="externo"] { color: blue; }	Afectaría a todos los elementos "a" con una clase de valor "externo".
-a[href="http://www.ejemplo.com"] { color: blue; }	Afectaría a todos los elementos "a" con el elemento href que contenga el link "http://www.ejemplo.com".
+a[href="http://www.ejemplo.com"] { color: blue; }	Afectaría a todos los elementos "a" con el elemento "href" que contenga el link "http://www.ejemplo.com".
 ```
