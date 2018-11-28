@@ -134,11 +134,19 @@ La caja de CSS tiene como principales atributos el margin, border y padding, el 
 
 ## Explica que son los selectores de CSS y pon ejemplos
 
+Se utilizan para seleccionar los elementos HTML a los que les queremos editar el estilo, algunos ejemplos serían:
+
+- Selector de tipo o etiqueta: Selecciona todos los elementos que que coincidan en la etiqueta HTML.
+
+- Selector descendente: Selecciona elementos que se encuentren dentro de otros.
+
+- Selector universal: Selecciona todos los elementos de la página.
+
 ## Di a quien afectan:
 ```html
-p a { color: red;
-p > a { color: red; }
-h1 + h2 { color: red }
+p a { color: red;	Afectaría a todos los elementos "a" que desciencan de "p".
+p > a { color: red; }	Afectaría a todos los elementos "a" que sean hijos inmediatos de "p".
+h1 + h2 { color: red }	Afectaría a los elementos "h2" que sean seguidores inmediatos de "h1".
 a[class] { color: blue; }
 a[class="externo"] { color: blue; }
 a[href="http://www.ejemplo.com"] { color: blue; }
