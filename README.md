@@ -50,7 +50,7 @@ ul {
 		<li>1 cucharada de sal</li>
 		<li>500g de harina</li>
 		<li>2 huevos</li>
-		<li>500ml de acite</li>
+		<li>500ml de aceite</li>
 		<li>Veneno mortal</li>
 	</ul>
 </body>
@@ -147,7 +147,7 @@ Se utilizan para seleccionar los elementos HTML a los que les queremos editar el
 p a { color: red;	Afectaría a todos los elementos "a" que desciencan de "p".
 p > a { color: red; }	Afectaría a todos los elementos "a" que sean hijos inmediatos de "p".
 h1 + h2 { color: red }	Afectaría a los elementos "h2" que sean seguidores inmediatos de "h1".
-a[class] { color: blue; }
-a[class="externo"] { color: blue; }
-a[href="http://www.ejemplo.com"] { color: blue; }
+a[class] { color: blue; }	Afectaría a todos los elementos "a" con el atributo "class".
+a[class="externo"] { color: blue; }	Afectaría a todos los elementos "a" con una clase de valor "externo".
+a[href="http://www.ejemplo.com"] { color: blue; }	Afectaría a todos los elementos "a" con el elemento href que contenga el link "http://www.ejemplo.com".
 ```
